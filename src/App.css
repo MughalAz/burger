@@ -1,38 +1,234 @@
-.App {
+.home{
+  background-image: url('..//public/assets/images/home-background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.para{
+  color: #3d2514;
+  font-size: 14px;
+  border: 2px dashed #3d2514;
+  max-width: 360px;
+  padding: 5px;
+  margin-top: 100px;
+  /* margin-left: 30px; */
+}
+.home-heading{
+  width: 700px;
+  color: #3d2514;
+  font-size: 70px;
+  /* font-family: 'AlfaSlabOne-Regular'; */
+  font-weight: bold;
+  /* padding-left: 20px; */
+}
+.home-heading-2{
+  color: #3d2514;
+  font-size: 70px;
+  /* font-family: 'AlfaSlabOne-Regular'; */
+  font-weight: bold;
+  /* padding-left: 20px; */
+}
+.logo{
+  color: #3d2514;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.logo-1{
+  margin-right: 10px;
+}
+.delivery{
+  font-weight: bold;
+  width: 310px;
+  margin-left: auto;
+  color: #3d2514;
+  padding-top: 30px;
+}
+.navbar{
+  color: #3d2514;
+  /* margin-right: 10px; */
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu{
+  color: #3d2514;
+}
+.menu-card{
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+}
+.btn{
+  color: #3d2514;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffc045;
+}
+.btn-1{
+  text-align: center;
+  /* margin-bottom: 30px; */
+}
+.menu-heading{
+  color: #3d2514;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.heading-para{
+  margin: auto;
+  max-width: 900px;
+text-align: center;
+margin-bottom: 40px;
+}
+.menu-para{
+  color: #80756f;
+  font-size: 16px;
+}
+.btn2{
+  width: 150px;
+  margin: auto;
+}
+.btn-2{
+  padding: 5px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  background-color: #bf2222;
+}
+.story-heading{
+  padding-left: 30px;
+  color: #3d2514;
+  font-size: 40px;
+  font-weight: bold;
+}
+.story-para{
+  padding-top: 15px;
+  padding-left: 30px;
+  color: #a4a4a4;
+  font-size: 20px;
+  max-width: 470px;
+}
+.discover-para{
+  padding-left: 30px;
+  color: #3d3d3d;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+.story{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.point{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.point-1{
+  margin: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ffc045;
+}
+.point-2{
+  margin: 3px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #dcdcdc;
+}
+.story-image{
+ padding-right: 20px;
+ padding-bottom: 20px;
+}
+.contact{
+ /* padding-top: 100px;
+  padding-bottom: 100px; */
+  height: 650px;
+  background-image: url('..//public/assets/images/contact-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form{
+  margin: auto;
+  max-width: 700px;
+  margin-top: 70px;
+}
+.contact-heading{
+  padding-top: 50px;
+  color: #3d2514;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-heading-2{
+  color: #3d2514;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-1{
+  height: 50px;
+  margin-top: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-2{
+  height: 50px;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #bf2222;
+  border: none;
+  width: 100%;
+}
+.footer{
+  height: auto;
+  background-image: url('..//public/assets/images/footer-image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-logo{
+  margin-left: 50px;
+  width: 300px;
+}
+.footer-para{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  color: #fff;
+  font-size: 16px;
+  max-width: 450px;
+}
+.footer-heading{
+  padding-left: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.location{
+  margin-right: 10px;
+}
+.copyright{
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.social{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.social-1{
+  margin: 3px;
+  width: 25px;
+  height: 23px;
+  background-color: #fff;
+  border-radius: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon{
+  font-size: 16px;
+  text-align: center;
+  margin-left: 5px;
 }
